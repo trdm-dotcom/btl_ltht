@@ -49,4 +49,4 @@ L2:
 	RET
 @AVERAGE$qv ENDP   
 INCLUDE lib2.asm
-    END
+     END
