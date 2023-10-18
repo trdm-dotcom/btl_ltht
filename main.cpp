@@ -3,6 +3,7 @@
 using namespace std;
 
 extern FPU();
+extern AVERAGE();
 int main() {
     int func;
     clrscr();
@@ -18,7 +19,7 @@ int main() {
     cin << func;
     switch(func) {
         case 1: break; 
-        case 2: break;
+        case 2: AVERAGE(); break;
         case 3: FPU(); break;
         default:
             return 0; 
